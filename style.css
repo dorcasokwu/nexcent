@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.navar-parent-div {
+  background-color: white;
+  height: 10vh;
+  width: auto;
+  align-content: center;
+  justify-content: center;
+  /* text-align: center;
+  align-items: center; */
+}
+.narbar-image {
+  object-fit: contain;
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 100px;
+}
+.parent-image {
+  font-weight: 300;
+  display: flex;
+  /* gap: 30px; */
+  margin-right: 10px;
+  text-align: center;
+  align-content: center;
+  /* float: right; */
+  /* justify-content: space-between; */
+}
+.div-home {
+  /* float: right; */
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-left: 250px;
+}
+
+.div-home div {
+  padding: 20px;
+  align-content: flex-end;
+}
+.BUTTONTEXT {
+  /* background-color: rgb(9, 202, 128); */
+  background-color: rgba(76, 175, 79, 1);
+  height: 8vh;
+  width: 150px;
+  border-radius: 8px;
+  border: transparent;
+  color: white;
+}
+.lesson-parent-div {
+  background-color: whitesmoke;
+  height: 100vh;
+  width: auto;
+  display: flex;
+}
+.lesson-image {
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.lesson-div {
+  margin-top: 30px;
+  align-content: center;
+  margin-left: 100px;
+  font-weight: 300;
+  font-size: x-large;
+  line-height: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.year {
+  color: rgb(61, 233, 8);
+}
+.whereto {
+  color: rgb(10, 9, 9);
+  font-weight: 200;
+  font-size: small;
+}
+.register {
+  background-color: green;
+  height: 7vh;
+  width: 150px;
+  text-align: center;
+}
+.parentdivcustomer {
+  background-color: white;
+  width: auto;
+  height: 50vh;
+  align-items: center;
+  align-content: center;
+  line-height: 30px;
+  text-align: center;
+}
+.icondiv {
+  display: flex;
+  gap: 80px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  margin-left: 100px;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+.soft1 {
+  background-color: gainsboro;
+  width: 360px;
+  height: 250px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 30px;
+  /* justify-content: space-around; */
+}
+.ima5 {
+  height: 10vh;
+  width: 40px;
+}
+.unseen-parent-div {
+  width: auto;
+  height: 80vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.itself {
+  /* color: rgb(6, 231, 6); */
+  color: rgba(76, 175, 79, 1);
+}
+.local-parent-div {
+  background-color: whitesmoke;
+  height: 40vh;
+  width: auto;
+  display: flex;
+}
+.naira-parent-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  gap: 50px;
+}
+.naira-div {
+  display: flex;
+}
+.local-div {
+  margin: auto;
+}
+.itsel {
+  color: rgba(76, 175, 79, 1);
+}
+
+.market {
+  height: 76vh;
+}
+.market-div {
+  text-align: center;
+}
+
+.Nelson {
+  padding: 10px 310px;
+}
+
+.man-divv {
+  display: flex;
+  position: absolute;
+  margin: auto;
+}
+
+.man-pic {
+  height: 300px;
+  width: 420px;
+}
+
+.cvv {
+  height: 100%;
+  width: 100%;
+}
+
+.text-cont {
+  height: 40%;
+  width: 80%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  position: relative;
+  margin: -40px auto;
+}
+
+.creating {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.footer {
+  height: 30vh;
+  background-color: hsl(0, 0%, 20%);
+  /* background-color: blue; */
+  width: 100%;
+}
+.footer2 {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+.footer-logo {
+  align-items: center;
+  align-content: center;
+  margin-left: 150px;
+}
+.logo {
+  display: flex;
+  /* gap: 4px;
+  padding: 10px 30px; */
+}
+.iconin {
+  display: flex;
+  height: 1px;
+  width: 2px;
+}
+
+.parentdiv-company {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 80px;
+  margin-left: 140px;
+}
+
+@media (max-width: 834px) {
+  .navar-parent-div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 35px;
+
+    width: 30px;
+  }
+  .narbar-image {
+    height: 4px;
+    width: 5px;
+    margin-left: 30px;
+  }
+  .div-home {
+    font-size: smaller;
+
+    margin-left: 150px;
+  }
+  .BUTTONTEXT {
+    /* height: 10px;
+    width: 40px; */
+  }
+  .lesson-parent-div {
+    flex-wrap: wrap;
+    height: 150vh;
+    
+  }
+
+  .lesson-div {
+    font-size: medium;
+    /* margin-bottom: 1000px; */
+  }
+  .lesson-image {
+    height: 3px;
+    width: 5px;
+    margin-bottom: 1250px;
+    /* margin-left: -90px; */
+    /* margin-right: -80px; */
+  }
+  .two {
+    margin-right: 100px;
+    /* padding-right: 70px; */
+  }
+  .soft1 {
+    width: 380px;
+    height: 275px;
+  }
+  .navar-parent-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .unseen-parent-div {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 30px;
+    width: auto; */
+    margin-top: 70px;
+  }
+
+  .local-parent-div {
+    flex-wrap: wrap;
+    /* display: flex; */
+    height: 70vh;
+    /* width: auto; */
+    margin-top: 170px;
+  }
+  .market {
+    /* display: flex; */
+    flex-wrap: wrap;
+    height: 193vh;
+  }
+  .Nelson {
+    padding: 5px 49px;
+  }
+  .man-divv {
+    flex-wrap: wrap-reverse;
+  }
+  .man-pic {
+    height: 250px;
+    width: auto;
+  }
+  .BUTTONTEXT {
+    height: 40px;
+    width: 90px;
+  }
+  .footer {
+    flex-wrap: wrap;
+
+    height: 100vh;
+    /* margin-bottom: 300px; */
+  }
+  .footer2 {
+    flex-wrap: wrap;
+  }
+  .parentdiv-company {
+    flex-wrap: wrap;
+  }
+}
