@@ -191,7 +191,9 @@ a {
   background-color: whitesmoke;
   border-radius: 8px;
   position: relative;
-  margin: -40px auto;
+  margin: -50px auto;
+  
+  
 }
 
 .creating {
@@ -236,11 +238,14 @@ a {
 
 @media (max-width: 834px) {
   .navar-parent-div {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     height: 35px;
 
     width: 30px;
+
+    flex-direction: column;
+    align-items: center;
   }
   .narbar-image {
     height: 4px;
@@ -249,17 +254,23 @@ a {
   }
   .div-home {
     font-size: smaller;
-
+    /* flex-direction: column;
+    gap: 10px; */
     margin-left: 150px;
   }
   .BUTTONTEXT {
     /* height: 10px;
     width: 40px; */
+    width: 100%;
+    margin: 10px 0;
   }
   .lesson-parent-div {
     flex-wrap: wrap;
     height: 150vh;
-    
+
+    align-items: center;
+    width: auto;
+    /* height: auto; */
   }
 
   .lesson-div {
@@ -267,11 +278,12 @@ a {
     /* margin-bottom: 1000px; */
   }
   .lesson-image {
-    height: 3px;
-    width: 5px;
-    margin-bottom: 1250px;
-    /* margin-left: -90px; */
-    /* margin-right: -80px; */
+    /* height: 3px; */
+    /* width: 5px; */
+    /* margin-bottom: 1250px; */
+    margin-left: -90px;
+    margin-right: -80px;
+    margin-top: 20px;
   }
   .two {
     margin-right: 100px;
@@ -280,6 +292,7 @@ a {
   .soft1 {
     width: 380px;
     height: 275px;
+    margin-bottom: 20px;
   }
   .navar-parent-div {
     display: flex;
@@ -287,11 +300,19 @@ a {
   }
 
   .unseen-parent-div {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
-    /* height: 30px;
-    width: auto; */
+    /* height: 30px; */
+    width: auto;
     margin-top: 70px;
+
+    align-items: center;
+    text-align: center;
+  }
+  .png {
+    margin-right: 50px;
+    height: auto;
+    width: 20px;
   }
 
   .local-parent-div {
@@ -300,6 +321,7 @@ a {
     height: 70vh;
     /* width: auto; */
     margin-top: 170px;
+    align-items: center;
   }
   .market {
     /* display: flex; */
@@ -310,11 +332,18 @@ a {
     padding: 5px 49px;
   }
   .man-divv {
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+
   }
   .man-pic {
     height: 250px;
     width: auto;
+  }
+  .text-cont{
+    height: 40%;
+    width: 80%;
+    font-size: small;
   }
   .BUTTONTEXT {
     height: 40px;
